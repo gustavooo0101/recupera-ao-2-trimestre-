@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a :Inteligência Artificial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1> a Inteligência Artificial</h1>
+    </header>
+
+    <main id="story">
+        <section id="introduction">
+            <h2>Introdução</h2>
+            <p>Você está prestes a embarcar em uma jornada fascinante na era da Inteligência Artificial. Suas escolhas determinarão o curso da história!</p>
+            <button onclick="startStory()">Começar a Aventura</button>
+        </section>
+
+        <section id="chapter" class="hidden">
+            <h2 id="chapter-title"></h2>
+            <p id="chapter-text"></p>
+            <div id="choices"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 A Inteligência Artificial</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
